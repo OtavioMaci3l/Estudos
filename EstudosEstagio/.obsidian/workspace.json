@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "12fc20aa1b1d0ed6",
+    "type": "split",
+    "children": [
+      {
+        "id": "571163687e91aab4",
+        "type": "tabs",
+        "dimension": 23.6911686938128,
+        "children": [
+          {
+            "id": "fcf5e4bf4012ec54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APIs/APIs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "APIs"
+            }
+          }
+        ]
+      },
+      {
+        "id": "8e9dd01f0d891f5d",
+        "type": "tabs",
+        "dimension": 76.3088313061872,
+        "children": [
+          {
+            "id": "e86b432f0a28c4ca",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e504b934ef0075ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "5247c840f6ad4cd3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc4de1d82323bf79",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "22523c619f7c1034",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "0bcec57936d973c0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "046c0c45cd84890a",
+    "type": "split",
+    "children": [
+      {
+        "id": "3db146c933511052",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22e6b3c421991ffe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Estagio/Estagio.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para Estagio"
+            }
+          },
+          {
+            "id": "c6193cfb53b0d05c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "3ef2988e98d700d6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1196b79f2597e858",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Estagio/Estagio.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Estagio"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "e86b432f0a28c4ca",
+  "lastOpenFiles": [
+    "APIs/APIs.md",
+    "APIs/APIs.canvas",
+    "Estagio.canvas",
+    "Estudos/Estudos.md",
+    "CursoAI/CursoAI.canvas",
+    "Estagio/Estagio.canvas",
+    "CursoAI/CursoAI.md",
+    "BancoDeDados/BancoDeDados.canvas",
+    "Estagio/Estagio.md",
+    "BancoDeDados/BancoDeDados.md",
+    "Java/Java.canvas",
+    "Java/Java.md",
+    "ZImages/Pasted image 20250307201649.png",
+    "ZImages/Pasted image 20250308104655.png",
+    "ZImages/Pasted image 20250308095004.png",
+    "ZImages/Pasted image 20250308094907.png",
+    "ZImages/Pasted image 20250308094833.png",
+    "ZImages/Pasted image 20250308092547.png",
+    "ZImages/Pasted image 20250307195929.png",
+    "ZImages/Pasted image 20250307200126.png",
+    "ZImages/Pasted image 20250307195422.png",
+    "ZImages/inicializacaoHeranca.png",
+    "Typescript/Typescript.canvas",
+    "Node/Node.canvas",
+    "Node/Node.md",
+    "ZImages",
+    "Typescript/Typescript.md",
+    "Typescript",
+    "Java/Sem título 1.md",
+    "Java",
+    "Sem título.canvas",
+    "Estagio",
+    "APIs/Sem título 1.canvas",
+    "CursoAI",
+    "Node",
+    "BancoDeDados",
+    "Sem título/Sem título.md",
+    "APIs",
+    "Bem-vindo.md"
+  ]
+}

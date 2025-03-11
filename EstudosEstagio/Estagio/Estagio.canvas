@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"2cec17d4db766099","type":"file","file":"Estagio/Estagio.md","x":-1320,"y":-620,"width":400,"height":540,"color":"6"},
+		{"id":"4421af4bc1bae9cd","type":"file","file":"Typescript/Typescript.md","x":-520,"y":91,"width":400,"height":125,"color":"1"},
+		{"id":"589858e75e4c9e84","type":"file","file":"Node/Node.md","x":-520,"y":-129,"width":400,"height":139,"color":"1"},
+		{"id":"623aa77ac7d37205","type":"file","file":"CursoAI/CursoAI.md","x":-520,"y":-960,"width":400,"height":131,"color":"3"},
+		{"id":"1921fb5e0479b6e6","type":"text","text":"Aprendendo ","x":40,"y":-924,"width":200,"height":60,"color":"3"},
+		{"id":"3fe15021242c91e3","type":"text","text":"Estacado","x":40,"y":-89,"width":200,"height":60,"color":"1"},
+		{"id":"874ba76fa7b49ad9","type":"text","text":"Estacado","x":40,"y":124,"width":200,"height":60,"color":"1"},
+		{"id":"5cfe7c48d7c692e4","type":"text","text":"Automaster --- 30/ 79","x":380,"y":-924,"width":352,"height":60,"color":"3"},
+		{"id":"6cd520eb4e7d6b4d","type":"text","text":"Andamento","x":40,"y":-743,"width":200,"height":60,"color":"3"},
+		{"id":"82d1615c4273713a","type":"file","file":"APIs/APIs.md","x":-520,"y":-777,"width":400,"height":127,"color":"3"},
+		{"id":"a8565ac298242862","type":"text","text":"Orientação Objetos --- 80 / 93","x":380,"y":-305,"width":352,"height":54,"color":"3"},
+		{"id":"ba543ae35b8e272c","type":"text","text":"Aprendendo","x":40,"y":-305,"width":200,"height":60,"color":"3"},
+		{"id":"24f9c904ef17acf9","type":"file","file":"Java/Java.md","x":-520,"y":-340,"width":400,"height":129,"color":"3"},
+		{"id":"94c13c8433c2da4e","type":"text","text":"Andamento","x":40,"y":-529,"width":200,"height":60,"color":"3"},
+		{"id":"e935be102ee49bb3","type":"file","file":"BancoDeDados/BancoDeDados.md","x":-520,"y":-560,"width":400,"height":123,"color":"3"},
+		{"id":"8e7ec60527a52f71","x":-508,"y":340,"width":388,"height":140,"type":"text","text":"Zapster\n---\n"}
+	],
+	"edges":[
+		{"id":"d9cf156b4e242ae1","fromNode":"2cec17d4db766099","fromSide":"right","toNode":"623aa77ac7d37205","toSide":"left"},
+		{"id":"4753f64817906da8","fromNode":"2cec17d4db766099","fromSide":"right","toNode":"24f9c904ef17acf9","toSide":"left"},
+		{"id":"3a196117bf668cdf","fromNode":"2cec17d4db766099","fromSide":"right","toNode":"4421af4bc1bae9cd","toSide":"left"},
+		{"id":"d514b8014e4a2374","fromNode":"2cec17d4db766099","fromSide":"right","toNode":"589858e75e4c9e84","toSide":"left"},
+		{"id":"60ab34695b342818","fromNode":"2cec17d4db766099","fromSide":"right","toNode":"82d1615c4273713a","toSide":"left"},
+		{"id":"09a609eede5335e1","fromNode":"623aa77ac7d37205","fromSide":"right","toNode":"1921fb5e0479b6e6","toSide":"left"},
+		{"id":"1554cad1a5341197","fromNode":"24f9c904ef17acf9","fromSide":"right","toNode":"ba543ae35b8e272c","toSide":"left"},
+		{"id":"b0b6028055da74c9","fromNode":"82d1615c4273713a","fromSide":"right","toNode":"6cd520eb4e7d6b4d","toSide":"left"},
+		{"id":"d6290c4461a5afa7","fromNode":"589858e75e4c9e84","fromSide":"right","toNode":"3fe15021242c91e3","toSide":"left"},
+		{"id":"22c29fe60f4f7084","fromNode":"4421af4bc1bae9cd","fromSide":"right","toNode":"874ba76fa7b49ad9","toSide":"left"},
+		{"id":"13d58b049971ac2e","fromNode":"ba543ae35b8e272c","fromSide":"right","toNode":"a8565ac298242862","toSide":"left"},
+		{"id":"0644bce129e9be6f","fromNode":"1921fb5e0479b6e6","fromSide":"right","toNode":"5cfe7c48d7c692e4","toSide":"left"},
+		{"id":"2e15dfb5a02bf633","fromNode":"6cd520eb4e7d6b4d","fromSide":"right","toNode":"5cfe7c48d7c692e4","toSide":"bottom"},
+		{"id":"2b38fb596cc93ad6","fromNode":"2cec17d4db766099","fromSide":"right","toNode":"e935be102ee49bb3","toSide":"left"},
+		{"id":"f6eabe34ab0e7bd5","fromNode":"e935be102ee49bb3","fromSide":"right","toNode":"94c13c8433c2da4e","toSide":"left"},
+		{"id":"bbce48373fc5d12f","fromNode":"94c13c8433c2da4e","fromSide":"right","toNode":"5cfe7c48d7c692e4","toSide":"bottom"},
+		{"id":"cc0428eef26af4b2","fromNode":"2cec17d4db766099","fromSide":"right","toNode":"8e7ec60527a52f71","toSide":"left"}
+	]
+}

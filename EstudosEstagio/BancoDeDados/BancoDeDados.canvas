@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"fedfba5f99843a75","type":"file","file":"BancoDeDados/BancoDeDados.md","x":-1400,"y":-680,"width":500,"height":460,"color":"6"},
+		{"id":"7589e480373892cc","type":"text","text":"para isso é só clicar nos 3 pontinhos do banco de dados desejadopara implementar no projeto\n\n![[Pasted image 20250308094833.png]]","x":-698,"y":-1640,"width":387,"height":280},
+		{"id":"1153806465134df9","type":"text","text":"e proto la tem toda a documentação explicando como que implementa ao banco de dados no projeto\n\n![[Pasted image 20250308095004.png]]","x":-879,"y":-3060,"width":750,"height":595},
+		{"id":"cbe191f9e9cc83c9","type":"text","text":"ir em views api docs\n\n![[Pasted image 20250308094907.png]]","x":-651,"y":-2280,"width":293,"height":460},
+		{"id":"174552e4e174cfe5","type":"text","text":"na documentação do baserow já é criado automaticamente uma forma de chamar a api do banco de dados criado nele de forma explicada ","x":-674,"y":-1180,"width":339,"height":197},
+		{"id":"ed6069cdf950e48b","type":"text","text":"para ultilizar o banco de daos em nossos projetos iremos ultilizar a api do banco de dados, no caso o baserow para implementalo em nossos projetos","x":-718,"y":-834,"width":428,"height":154},
+		{"id":"ab84c533ed1f8c07","type":"text","text":"**https://baserow.io/**","x":-639,"y":-485,"width":270,"height":71,"color":"6"},
+		{"id":"866293ea3a25b548","type":"text","text":"diferente da open ai o baserow não fica atualizando com tanta frequencia o que possibilita ultilizar mais recomendavelmente os nós pre prontos do n8n para o bse row o que é muito bom, facilita a vida","x":-693,"y":-160,"width":378,"height":260},
+		{"id":"adc7399cdb19c84c","type":"text","text":"verifica no baserow se o usuario está cadastrado","x":-2076,"y":-577,"width":276,"height":97,"color":"3"},
+		{"id":"68d04ade96301fa2","type":"text","text":"cadastra o usuario","x":-2620,"y":-561,"width":250,"height":60,"color":"1"},
+		{"id":"528efa6a18fd3b36","type":"text","text":"workflow acionado","x":-2063,"y":-834,"width":244,"height":61,"color":"4"},
+		{"id":"e00b178b37998cd7","type":"text","text":"continua o workflow","x":-2061,"y":-255,"width":247,"height":70,"color":"5"}
+	],
+	"edges":[
+		{"id":"2abdb22135dfe25d","fromNode":"fedfba5f99843a75","fromSide":"right","toNode":"ab84c533ed1f8c07","toSide":"left"},
+		{"id":"9996f3d7ab1e013e","fromNode":"ab84c533ed1f8c07","fromSide":"top","toNode":"ed6069cdf950e48b","toSide":"bottom"},
+		{"id":"c98c44bc1986fe81","fromNode":"ed6069cdf950e48b","fromSide":"top","toNode":"174552e4e174cfe5","toSide":"bottom"},
+		{"id":"68df7b08e0d8ebe2","fromNode":"174552e4e174cfe5","fromSide":"top","toNode":"7589e480373892cc","toSide":"bottom"},
+		{"id":"9ff18055cfd303e9","fromNode":"7589e480373892cc","fromSide":"top","toNode":"cbe191f9e9cc83c9","toSide":"bottom"},
+		{"id":"26c920632e1cc287","fromNode":"cbe191f9e9cc83c9","fromSide":"top","toNode":"1153806465134df9","toSide":"bottom"},
+		{"id":"44ccf8178f2d4a95","fromNode":"ab84c533ed1f8c07","fromSide":"bottom","toNode":"866293ea3a25b548","toSide":"top"},
+		{"id":"0771388e938d848e","fromNode":"528efa6a18fd3b36","fromSide":"bottom","toNode":"adc7399cdb19c84c","toSide":"top"},
+		{"id":"6058820927ff88cd","fromNode":"adc7399cdb19c84c","fromSide":"left","toNode":"68d04ade96301fa2","toSide":"right","label":"não"},
+		{"id":"6e508dc339992120","fromNode":"adc7399cdb19c84c","fromSide":"bottom","toNode":"e00b178b37998cd7","toSide":"top","label":"sim"},
+		{"id":"458c3141f561ac42","fromNode":"68d04ade96301fa2","fromSide":"top","toNode":"adc7399cdb19c84c","toSide":"top","label":"verifica novamente"}
+	]
+}

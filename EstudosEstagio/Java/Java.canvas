@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"980ce65e435d21ba","type":"file","file":"Java/Java.md","x":-202,"y":-400,"width":400,"height":400},
+		{"id":"52c3188496eee385","type":"file","file":"ZImages/associação.png","x":801,"y":90,"width":399,"height":167},
+		{"id":"be0aea41a0c54cf8","type":"file","file":"ZImages/AssociaçãoBilateral.png","x":801,"y":-167,"width":399,"height":167},
+		{"id":"34e17f61c51a3c05","type":"file","file":"ZImages/inicializacaoHeranca.png","x":801,"y":-423,"width":399,"height":167},
+		{"id":"2d14adf08b79b438","type":"file","file":"ZImages/AssociaçãoEntreClassesExercicio.png","x":800,"y":-687,"width":399,"height":167}
+	],
+	"edges":[
+		{"id":"da075a20c35797cd","fromNode":"980ce65e435d21ba","fromSide":"right","toNode":"2d14adf08b79b438","toSide":"left"},
+		{"id":"122a581f4dcb5784","fromNode":"980ce65e435d21ba","fromSide":"right","toNode":"34e17f61c51a3c05","toSide":"left"},
+		{"id":"f33f796e8d2fbb4c","fromNode":"980ce65e435d21ba","fromSide":"right","toNode":"be0aea41a0c54cf8","toSide":"left"},
+		{"id":"44d69e3e25f3bacf","fromNode":"980ce65e435d21ba","fromSide":"right","toNode":"52c3188496eee385","toSide":"left"}
+	]
+}
