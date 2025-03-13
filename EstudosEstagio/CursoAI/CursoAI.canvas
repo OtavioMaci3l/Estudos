@@ -52,7 +52,20 @@
 		{"id":"e53eb018af09e50d","type":"text","text":"\t\tRAG\n\n( Retrieval Augmented Generation )","x":436,"y":2466,"width":391,"height":150},
 		{"id":"ab35278fd40718c6","type":"text","text":"dados de treinamento para a IA","x":459,"y":2736,"width":345,"height":73},
 		{"id":"7c6bd5a87b32add0","type":"text","text":"GPT 4o-mini","x":538,"y":2071,"width":189,"height":55},
-		{"id":"3d5dbf1c3d890650","type":"text","text":"Assistants API Overview","x":1040,"y":2940,"width":285,"height":64,"color":"6"}
+		{"id":"a8dbd1400feb94dc","type":"text","text":"Run","x":1345,"y":3269,"width":250,"height":60,"color":"2"},
+		{"id":"05584ceccf50cad1","type":"text","text":"Run Step","x":1625,"y":3269,"width":250,"height":60,"color":"2"},
+		{"id":"5a18f7ebd199da37","type":"text","text":"solicitação","x":1345,"y":3420,"width":250,"height":60,"color":"3"},
+		{"id":"19c31f7c82e596d9","type":"text","text":"status da run","x":1625,"y":3420,"width":250,"height":60,"color":"3"},
+		{"id":"82f7a627d15eb793","type":"text","text":"Assitant","x":492,"y":3269,"width":250,"height":60,"color":"2"},
+		{"id":"5cb71326cbc72a9b","type":"text","text":"Thread","x":775,"y":3269,"width":250,"height":60,"color":"2"},
+		{"id":"c8383107741514a4","type":"text","text":"Mensage","x":1060,"y":3269,"width":250,"height":60,"color":"2"},
+		{"id":"3711435e4e0b3db0","type":"text","text":"histórico","x":776,"y":3420,"width":250,"height":60,"color":"3"},
+		{"id":"71a6046364bd567b","type":"text","text":"input","x":1060,"y":3420,"width":250,"height":60,"color":"3"},
+		{"id":"38a3e35cf14de2af","type":"text","text":"próprio modelo","x":492,"y":3420,"width":250,"height":60,"color":"3"},
+		{"id":"3d5dbf1c3d890650","type":"text","text":"Assistants API Overview","x":1042,"y":2989,"width":285,"height":64,"color":"6"},
+		{"id":"eeb4a2373ec5f6d1","type":"text","text":"**OBS:**  o chat gpt no playground disponibiliza um framework que facilita a ultilização do assistant do chat gpt, deixando isso de forma muito mais visual, porem no curso iremos fazer isso manualmente pelo N8N.","x":822,"y":3683,"width":727,"height":137,"color":"6"},
+		{"id":"ec0198e64428405b","type":"text","text":"---\n\n---\nOBS\n---\nesse nó serve para organizar a gestão de variaveis onde ele serve para receber valores, apenas, meio que cria uma lista de variaveis onde se coloca um nome, para organizar, vizualizar melhor, no caso foi usado para filtrar os dados do usuário deixando-os mais viziveis\n\n![[Pasted image 20250311213007.png]]","x":-1500,"y":-585,"width":700,"height":532},
+		{"id":"e4213c90663cad1d","type":"text","text":"OBS: no n8n as vezes pode ocorrer um bug que mesmo que o campo esteje preenchido corretamente fique vermelho:\n\n![[Pasted image 20250312213034.png]]\n\nisso normamente ocorre após um loop onde o n8n não sabe qual objeto ele vai ultlizar, pois foram passador 2 itens no item anterior:\n\n![[Pasted image 20250312213211.png]]\n\natualmente, aparentemente, esse bug pode ser resolvido apenas apertando no Test Step, porem se mesmo assim não resolver é apenas colocar um firt no local do item, que resolve, pois vai indicar que é pra ultilizar o primeiro passado\n\n![[Pasted image 20250312213511.png]]","x":-1463,"y":502,"width":626,"height":1066}
 	],
 	"edges":[
 		{"id":"673aaee070953ea9","fromNode":"a63149970901d2ac","fromSide":"right","toNode":"8ea2529f5a35f638","toSide":"left"},
@@ -98,6 +111,16 @@
 		{"id":"4d45f43fef59b5d4","fromNode":"9f9187747934d3d6","fromSide":"top","toNode":"9e8cee89db26beac","toSide":"bottom"},
 		{"id":"2db22d80d96053ee","fromNode":"50e991645094ffb9","fromSide":"top","toNode":"20a09c99629a3868","toSide":"bottom"},
 		{"id":"ff580aad7a6d73cd","fromNode":"ab35278fd40718c6","fromSide":"top","toNode":"e53eb018af09e50d","toSide":"bottom"},
-		{"id":"adb1976f913e7fdf","fromNode":"df02b4c10f5b91db","fromSide":"bottom","toNode":"bf3dc6f2101d8011","toSide":"top"}
+		{"id":"adb1976f913e7fdf","fromNode":"df02b4c10f5b91db","fromSide":"bottom","toNode":"bf3dc6f2101d8011","toSide":"top"},
+		{"id":"d58603b3dda0fa71","fromNode":"3d5dbf1c3d890650","fromSide":"bottom","toNode":"82f7a627d15eb793","toSide":"top"},
+		{"id":"f151641bd59004fe","fromNode":"3d5dbf1c3d890650","fromSide":"bottom","toNode":"c8383107741514a4","toSide":"top"},
+		{"id":"2b9cbe507aa81270","fromNode":"3d5dbf1c3d890650","fromSide":"bottom","toNode":"5cb71326cbc72a9b","toSide":"top"},
+		{"id":"3b9256774e581ccd","fromNode":"3d5dbf1c3d890650","fromSide":"bottom","toNode":"a8dbd1400feb94dc","toSide":"top"},
+		{"id":"1f1d176981b5eb65","fromNode":"82f7a627d15eb793","fromSide":"bottom","toNode":"38a3e35cf14de2af","toSide":"top"},
+		{"id":"90509215149a0d1a","fromNode":"5cb71326cbc72a9b","fromSide":"bottom","toNode":"3711435e4e0b3db0","toSide":"top"},
+		{"id":"68fcdbb2c79ae40d","fromNode":"c8383107741514a4","fromSide":"bottom","toNode":"71a6046364bd567b","toSide":"top"},
+		{"id":"60d0f187897e5de3","fromNode":"a8dbd1400feb94dc","fromSide":"bottom","toNode":"5a18f7ebd199da37","toSide":"top"},
+		{"id":"3121e6ea82124e30","fromNode":"05584ceccf50cad1","fromSide":"bottom","toNode":"19c31f7c82e596d9","toSide":"top"},
+		{"id":"a2505704f0d4e060","fromNode":"3d5dbf1c3d890650","fromSide":"bottom","toNode":"05584ceccf50cad1","toSide":"top"}
 	]
 }

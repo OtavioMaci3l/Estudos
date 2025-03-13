@@ -7,7 +7,6 @@
 		{"id":"1921fb5e0479b6e6","type":"text","text":"Aprendendo ","x":40,"y":-924,"width":200,"height":60,"color":"3"},
 		{"id":"3fe15021242c91e3","type":"text","text":"Estacado","x":40,"y":-89,"width":200,"height":60,"color":"1"},
 		{"id":"874ba76fa7b49ad9","type":"text","text":"Estacado","x":40,"y":124,"width":200,"height":60,"color":"1"},
-		{"id":"5cfe7c48d7c692e4","type":"text","text":"Automaster --- 30/ 79","x":380,"y":-924,"width":352,"height":60,"color":"3"},
 		{"id":"6cd520eb4e7d6b4d","type":"text","text":"Andamento","x":40,"y":-743,"width":200,"height":60,"color":"3"},
 		{"id":"82d1615c4273713a","type":"file","file":"APIs/APIs.md","x":-520,"y":-777,"width":400,"height":127,"color":"3"},
 		{"id":"a8565ac298242862","type":"text","text":"Orientação Objetos --- 80 / 93","x":380,"y":-305,"width":352,"height":54,"color":"3"},
@@ -15,7 +14,8 @@
 		{"id":"24f9c904ef17acf9","type":"file","file":"Java/Java.md","x":-520,"y":-340,"width":400,"height":129,"color":"3"},
 		{"id":"94c13c8433c2da4e","type":"text","text":"Andamento","x":40,"y":-529,"width":200,"height":60,"color":"3"},
 		{"id":"e935be102ee49bb3","type":"file","file":"BancoDeDados/BancoDeDados.md","x":-520,"y":-560,"width":400,"height":123,"color":"3"},
-		{"id":"8e7ec60527a52f71","x":-508,"y":340,"width":388,"height":140,"type":"text","text":"Zapster\n---\n"}
+		{"id":"8e7ec60527a52f71","type":"text","text":"Zapster\n---\n","x":-508,"y":340,"width":388,"height":140},
+		{"id":"5cfe7c48d7c692e4","type":"text","text":"Automaster --- 39/ 79","x":380,"y":-924,"width":352,"height":60,"color":"3"}
 	],
 	"edges":[
 		{"id":"d9cf156b4e242ae1","fromNode":"2cec17d4db766099","fromSide":"right","toNode":"623aa77ac7d37205","toSide":"left"},

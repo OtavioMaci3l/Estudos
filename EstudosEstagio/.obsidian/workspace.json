@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APIs/APIs.md",
+                "file": "CursoAI/CursoAI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "APIs"
+              "title": "CursoAI"
             }
           }
         ]
@@ -33,10 +33,17 @@
             "id": "e86b432f0a28c4ca",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "canvas",
+              "state": {
+                "file": "Estagio/Estagio.canvas",
+                "viewState": {
+                  "x": -294,
+                  "y": -240,
+                  "zoom": -0.6716944964389705
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Estagio"
             }
           }
         ]
@@ -188,16 +195,21 @@
   },
   "active": "e86b432f0a28c4ca",
   "lastOpenFiles": [
-    "APIs/APIs.md",
-    "APIs/APIs.canvas",
-    "Estagio.canvas",
-    "Estudos/Estudos.md",
     "CursoAI/CursoAI.canvas",
+    "ZImages/Pasted image 20250312213511.png",
+    "ZImages/Pasted image 20250312213211.png",
+    "ZImages/Pasted image 20250312213034.png",
+    "BancoDeDados/BancoDeDados.canvas",
     "Estagio/Estagio.canvas",
     "CursoAI/CursoAI.md",
-    "BancoDeDados/BancoDeDados.canvas",
-    "Estagio/Estagio.md",
+    "ZImages/Pasted image 20250311213001.png",
+    "ZImages/Pasted image 20250311213007.png",
     "BancoDeDados/BancoDeDados.md",
+    "APIs/APIs.canvas",
+    "APIs/APIs.md",
+    "Estagio.canvas",
+    "Estudos/Estudos.md",
+    "Estagio/Estagio.md",
     "Java/Java.canvas",
     "Java/Java.md",
     "ZImages/Pasted image 20250307201649.png",
@@ -205,11 +217,6 @@
     "ZImages/Pasted image 20250308095004.png",
     "ZImages/Pasted image 20250308094907.png",
     "ZImages/Pasted image 20250308094833.png",
-    "ZImages/Pasted image 20250308092547.png",
-    "ZImages/Pasted image 20250307195929.png",
-    "ZImages/Pasted image 20250307200126.png",
-    "ZImages/Pasted image 20250307195422.png",
-    "ZImages/inicializacaoHeranca.png",
     "Typescript/Typescript.canvas",
     "Node/Node.canvas",
     "Node/Node.md",

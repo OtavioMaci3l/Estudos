@@ -8,10 +8,14 @@
 		{"id":"ed6069cdf950e48b","type":"text","text":"para ultilizar o banco de daos em nossos projetos iremos ultilizar a api do banco de dados, no caso o baserow para implementalo em nossos projetos","x":-718,"y":-834,"width":428,"height":154},
 		{"id":"ab84c533ed1f8c07","type":"text","text":"**https://baserow.io/**","x":-639,"y":-485,"width":270,"height":71,"color":"6"},
 		{"id":"866293ea3a25b548","type":"text","text":"diferente da open ai o baserow não fica atualizando com tanta frequencia o que possibilita ultilizar mais recomendavelmente os nós pre prontos do n8n para o bse row o que é muito bom, facilita a vida","x":-693,"y":-160,"width":378,"height":260},
-		{"id":"adc7399cdb19c84c","type":"text","text":"verifica no baserow se o usuario está cadastrado","x":-2076,"y":-577,"width":276,"height":97,"color":"3"},
-		{"id":"68d04ade96301fa2","type":"text","text":"cadastra o usuario","x":-2620,"y":-561,"width":250,"height":60,"color":"1"},
-		{"id":"528efa6a18fd3b36","type":"text","text":"workflow acionado","x":-2063,"y":-834,"width":244,"height":61,"color":"4"},
-		{"id":"e00b178b37998cd7","type":"text","text":"continua o workflow","x":-2061,"y":-255,"width":247,"height":70,"color":"5"}
+		{"id":"528efa6a18fd3b36","type":"text","text":"workflow acionado","x":-2163,"y":-1074,"width":244,"height":61,"color":"6"},
+		{"id":"adc7399cdb19c84c","type":"text","text":"verifica no baserow se o usuario está cadastrado","x":-2176,"y":-817,"width":276,"height":97,"color":"3"},
+		{"id":"5df93359931d053f","type":"text","text":"verifica se é o primeiro acesso do usuário","x":-2183,"y":-460,"width":290,"height":89,"color":"3"},
+		{"id":"68d04ade96301fa2","type":"text","text":"cadastra o usuario","x":-2640,"y":-798,"width":250,"height":60,"color":"1"},
+		{"id":"1d5379ec1cc61f32","type":"text","text":"cria uma thread","x":-2640,"y":-300,"width":246,"height":60,"color":"1"},
+		{"id":"ea1680f5f7a41e17","type":"text","text":"salva no baserow","x":-2636,"y":-91,"width":246,"height":60,"color":"1"},
+		{"id":"c50b80fe8d8fbfd2","type":"text","text":"retorna a mensagem para o usuário","x":-2188,"y":360,"width":301,"height":87,"color":"6"},
+		{"id":"9b572ab90cf0725e","type":"text","text":"passa a mensagem para a Thread","x":-2219,"y":100,"width":362,"height":60,"color":"4"}
 	],
 	"edges":[
 		{"id":"2abdb22135dfe25d","fromNode":"fedfba5f99843a75","fromSide":"right","toNode":"ab84c533ed1f8c07","toSide":"left"},
@@ -22,8 +26,13 @@
 		{"id":"26c920632e1cc287","fromNode":"cbe191f9e9cc83c9","fromSide":"top","toNode":"1153806465134df9","toSide":"bottom"},
 		{"id":"44ccf8178f2d4a95","fromNode":"ab84c533ed1f8c07","fromSide":"bottom","toNode":"866293ea3a25b548","toSide":"top"},
 		{"id":"0771388e938d848e","fromNode":"528efa6a18fd3b36","fromSide":"bottom","toNode":"adc7399cdb19c84c","toSide":"top"},
-		{"id":"6058820927ff88cd","fromNode":"adc7399cdb19c84c","fromSide":"left","toNode":"68d04ade96301fa2","toSide":"right","label":"não"},
-		{"id":"6e508dc339992120","fromNode":"adc7399cdb19c84c","fromSide":"bottom","toNode":"e00b178b37998cd7","toSide":"top","label":"sim"},
-		{"id":"458c3141f561ac42","fromNode":"68d04ade96301fa2","fromSide":"top","toNode":"adc7399cdb19c84c","toSide":"top","label":"verifica novamente"}
+		{"id":"6058820927ff88cd","fromNode":"adc7399cdb19c84c","fromSide":"bottom","toNode":"68d04ade96301fa2","toSide":"bottom","label":"não"},
+		{"id":"458c3141f561ac42","fromNode":"68d04ade96301fa2","fromSide":"top","toNode":"adc7399cdb19c84c","toSide":"top","label":"verifica novamente"},
+		{"id":"56b6732c8f461b2a","fromNode":"adc7399cdb19c84c","fromSide":"bottom","toNode":"5df93359931d053f","toSide":"top","label":"sim"},
+		{"id":"9a0754c0b8ac858f","fromNode":"5df93359931d053f","fromSide":"bottom","toNode":"9b572ab90cf0725e","toSide":"top","label":"não"},
+		{"id":"f9e957f1fb740105","fromNode":"5df93359931d053f","fromSide":"left","toNode":"1d5379ec1cc61f32","toSide":"top","label":"sim"},
+		{"id":"684951a41f4d7b08","fromNode":"ea1680f5f7a41e17","fromSide":"bottom","toNode":"9b572ab90cf0725e","toSide":"top"},
+		{"id":"8d4200a30104645a","fromNode":"1d5379ec1cc61f32","fromSide":"bottom","toNode":"ea1680f5f7a41e17","toSide":"top"},
+		{"id":"99da17ffdd0ee1ee","fromNode":"9b572ab90cf0725e","fromSide":"bottom","toNode":"c50b80fe8d8fbfd2","toSide":"top"}
 	]
 }

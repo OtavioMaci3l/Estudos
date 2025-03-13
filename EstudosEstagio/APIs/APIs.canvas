@@ -9,7 +9,7 @@
 		{"id":"5665b99e3b3d2119","type":"text","text":"**URL**  é o endereço que indentifica o local onde o recurso está","x":-1608,"y":-220,"width":282,"height":120,"color":"2"},
 		{"id":"013929c4d90daaca","type":"text","text":"**Método** define a ação a ser realizada","x":-1601,"y":80,"width":268,"height":96,"color":"2"},
 		{"id":"239fc43a696bd6b5","type":"text","text":"**GET** solicita dados, como vizualizar uma pagina","x":-2106,"y":448,"width":299,"height":98,"color":"3"},
-		{"id":"4fcaf57d7e87ff4f","type":"text","text":"**POST** envia dados ao servido, como preencher um formulario","x":-1807,"y":448,"width":340,"height":98,"color":"3"},
+		{"id":"4fcaf57d7e87ff4f","type":"text","text":"**POST** envia dados ao servido, como preencher um formulario, enviar um input para o chat gpt","x":-1807,"y":448,"width":340,"height":98,"color":"3"},
 		{"id":"43dd963524e43251","type":"text","text":"**PUT** substituir dados enviando novos para o servidor","x":-1467,"y":448,"width":340,"height":98,"color":"3"},
 		{"id":"074f5366574319e5","type":"text","text":"**DELETE** remover um recurso do servidor","x":-1127,"y":448,"width":306,"height":98,"color":"3"},
 		{"id":"4f687c1b1f962366","type":"text","text":"**Headers** (Cabeçalhos): são informações somenta para o próprio servidor como JSON, HTML, são informações adicionas sobre a solicitação, sendo enviados como pares chave-valor.","x":-1892,"y":848,"width":850,"height":140,"color":"3"},
@@ -35,7 +35,8 @@
 		{"id":"e2a0f653ee130b02","type":"text","text":"para implemetnar um banco de dados no nosso projeto iremos ultilizar API do banco de dados , o que novamente na propria documentação da api do banco de dados é explicado","x":998,"y":1213,"width":484,"height":191},
 		{"id":"311806e4898f14a2","type":"file","file":"BancoDeDados/BancoDeDados.md","x":842,"y":1613,"width":400,"height":400},
 		{"id":"21813b63f681b0ae","type":"file","file":"BancoDeDados/BancoDeDados.canvas","x":1242,"y":1613,"width":400,"height":400},
-		{"id":"99527abafed30779","type":"text","text":"e existem varias formas para autenticar a implementação da API, como para autenticar a API do ChatGPT é apenas copiar e colar uma key, enquanto para autenticar a API do baserow precisa logar na conta do baserow, colocando usuario e senha","x":-821,"y":1388,"width":441,"height":260,"color":"2"}
+		{"id":"99527abafed30779","type":"text","text":"e existem varias formas para autenticar a implementação da API, como para autenticar a API do ChatGPT é apenas copiar e colar uma key, enquanto para autenticar a API do baserow precisa logar na conta do baserow, colocando usuario e senha","x":-821,"y":1388,"width":441,"height":260,"color":"2"},
+		{"id":"e73242617ff49ab6","x":-2960,"y":371,"width":250,"height":60,"type":"text","text":"OBS:"}
 	],
 	"edges":[
 		{"id":"cae3a630724770be","fromNode":"b5cf6e74300fdd0f","fromSide":"top","toNode":"ee5bb60e1342cb5f","toSide":"top","label":"faz seu pedido"},
