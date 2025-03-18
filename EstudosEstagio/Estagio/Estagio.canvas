@@ -15,7 +15,7 @@
 		{"id":"94c13c8433c2da4e","type":"text","text":"Andamento","x":40,"y":-529,"width":200,"height":60,"color":"3"},
 		{"id":"e935be102ee49bb3","type":"file","file":"BancoDeDados/BancoDeDados.md","x":-520,"y":-560,"width":400,"height":123,"color":"3"},
 		{"id":"8e7ec60527a52f71","type":"text","text":"Zapster\n---\n","x":-508,"y":340,"width":388,"height":140},
-		{"id":"5cfe7c48d7c692e4","type":"text","text":"Automaster --- 39/ 79","x":380,"y":-924,"width":352,"height":60,"color":"3"}
+		{"id":"5cfe7c48d7c692e4","type":"text","text":"Automaster --- 43/ 79","x":380,"y":-924,"width":352,"height":60,"color":"3"}
 	],
 	"edges":[
 		{"id":"d9cf156b4e242ae1","fromNode":"2cec17d4db766099","fromSide":"right","toNode":"623aa77ac7d37205","toSide":"left"},

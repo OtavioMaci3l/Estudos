@@ -36,7 +36,8 @@
 		{"id":"311806e4898f14a2","type":"file","file":"BancoDeDados/BancoDeDados.md","x":842,"y":1613,"width":400,"height":400},
 		{"id":"21813b63f681b0ae","type":"file","file":"BancoDeDados/BancoDeDados.canvas","x":1242,"y":1613,"width":400,"height":400},
 		{"id":"99527abafed30779","type":"text","text":"e existem varias formas para autenticar a implementação da API, como para autenticar a API do ChatGPT é apenas copiar e colar uma key, enquanto para autenticar a API do baserow precisa logar na conta do baserow, colocando usuario e senha","x":-821,"y":1388,"width":441,"height":260,"color":"2"},
-		{"id":"e73242617ff49ab6","x":-2960,"y":371,"width":250,"height":60,"type":"text","text":"OBS:"}
+		{"id":"e73242617ff49ab6","type":"text","text":"OBS:","x":-2960,"y":371,"width":250,"height":60},
+		{"id":"9ae2f4fb6dd524c1","type":"text","text":"WEBHOOK\n---","x":-1586,"y":2000,"width":239,"height":81,"color":"6"}
 	],
 	"edges":[
 		{"id":"cae3a630724770be","fromNode":"b5cf6e74300fdd0f","fromSide":"top","toNode":"ee5bb60e1342cb5f","toSide":"top","label":"faz seu pedido"},
