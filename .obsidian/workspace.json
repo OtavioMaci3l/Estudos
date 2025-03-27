@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "bffc8651503baaac",
+    "type": "split",
+    "children": [
+      {
+        "id": "2038d6f33f00ee5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01b8a3dc9a1294f2",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "CursoAI/CursoAI.canvas",
+                "viewState": {
+                  "x": 269.8040770973765,
+                  "y": -8806.004577358313,
+                  "zoom": -3.333333333333333
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "CursoAI"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5fdf42419032239f",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f77de72ae16a2f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5e368c748055b00e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "4a7a784d299a7725",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "3c7e70f07910cc0e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "69a3b30c0c7352b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "096c9607718ff22a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d497bb1490fa1b42",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CursoAI/CursoAI.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para CursoAI"
+            }
+          },
+          {
+            "id": "fb37e497b2e4abce",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CursoAI/CursoAI.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para CursoAI"
+            }
+          },
+          {
+            "id": "da6a4f878f506ae6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9360364698923ffc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CursoAI/CursoAI.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de CursoAI"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "01b8a3dc9a1294f2",
+  "lastOpenFiles": [
+    "CursoAI.canvas",
+    "CursoAI/CursoAI.canvas",
+    "CursoAI",
+    "Nova pasta",
+    "ZImages/Pasted image 20250325190147.png",
+    "ZImages/Pasted image 20250325185943.png",
+    "ZImages/Pasted image 20250325185905.png",
+    "ZImages/Pasted image 20250325185153.png",
+    "ZImages/Pasted image 20250325183315.png",
+    "ZImages/Pasted image 20250325183246.png",
+    "ZImages/Pasted image 20250325183228.png",
+    "ZImages/Pasted image 20250325183138.png",
+    "ZImages/Pasted image 20250325182848.png",
+    "ZImages/Pasted image 20250325181757.png",
+    "ZImages"
+  ]
+}
